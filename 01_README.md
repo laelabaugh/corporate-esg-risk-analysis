@@ -2,6 +2,8 @@
 
 An in-depth SQL analysis of Environmental, Social, and Governance (ESG) risk ratings for 162 S&P 500 companies, exploring sector performance, risk patterns, and sustainability leaders. Includes data cleaning, data analysis, and visualizations. Includes actionable insights for investors and sustainability teams.
 
+*This project was conducted in November 2025 and later uploaded to GitHub in December 2025.*
+
 ---
 
 ## Project Background and Overview
