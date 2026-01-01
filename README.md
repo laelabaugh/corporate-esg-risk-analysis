@@ -148,7 +148,7 @@ The Energy sector has strong ESG risk, with an average score 57% above the marke
 | Technology | 16.84 | 1.96 | 7.59 | 7.27 |
 | Real Estate | 12.58 | 2.29 | 4.67 | 5.61 |
 
-**Key Insight:** While Energy struggles with environmental metrics, Healthcare faces its greatest challenge in social risk at 12.73 average. Drug prcing, clinical trial ethics, and healthcare access issues likely play a role. Financial Services and Communication Services show high governance risk, which probably reflects examination of executive pay, board diversity, and data privacy practices.
+**Key Insight:** While Energy struggles with environmental metrics, Healthcare faces its greatest challenge in social risk at 12.73 average. Drug pricing, clinical trial ethics, and healthcare access issues likely play a role. Financial Services and Communication Services show high governance risk, which probably reflects examination of executive pay, board diversity, and data privacy practices.
 
 ![Sector Deep Dive](/visualizations/07_sector_deep_dive.png)
 
