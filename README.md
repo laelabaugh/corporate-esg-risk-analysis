@@ -1,18 +1,14 @@
 # S&P 500 Corporate ESG Risk Analysis
 
-An in-depth SQL analysis of Environmental, Social, and Governance (ESG) risk ratings for 162 S&P 500 companies, exploring sector performance, risk patterns, and sustainability leaders. Includes data cleaning, data analysis, and visualizations. Includes actionable insights for investors and sustainability teams.
-
-*This project was conducted in October 2025 and later uploaded to GitHub in December 2025.*
-
----
-
 ## Project Background and Overview
 
 Environmental, Social, and Governance (ESG) investing has become a key framework for evaluating corporate sustainability and ethical impact. ESG criteria help investors to screen companies based on their environmental practices, social responsibility, and corporate governance standards.
 
 This project analyzes ESG Risk Ratings for 162 S&P 500 companies across 11 sectors. The data comes from Sustainalytics, an ESG research and ratings provider. The dataset captures ESG risk assessments measuring a company's unmanaged ESG risk exposure at one single point in time.
 
-### Key Business Questions:
+*This project was conducted in October 2025 and later uploaded to GitHub in December 2025.*
+
+### Key business questions addressed:
 
 - **Sector Risk Analysis:** Which sectors have the highest ESG risk, and what causes that risk?
 - **Environmental Leadership:** Which sectors and companies are the best and worst-performing environmentally?
@@ -285,6 +281,7 @@ Based on the analysis, the following are a few recommendations for key stakehold
 8. **Real Estate tends to be a safer ESG option.** Consistently low risk scores and minimal controversy make it worth considering this sector for ESG-focused portfolios that want more stability.
 
 ---
+
 ## Limitations and Future Work
 
 **Current Limitations:**
@@ -296,7 +293,7 @@ Based on the analysis, the following are a few recommendations for key stakehold
 - Incorporate time-series data to analyze ESG score trends and momentum.
 - Add financial performance metrics to correlate ESG scores with returns.
 - Expand to full S&P 500 coverage and international indices.
-
+  
 ---
 
 ## Technical Implementation
@@ -316,14 +313,14 @@ The analysis was conducted using SQLite with the following query categories:
 ### Repository Structure
 
 ```
-├── README.md                 # This file
-├── data
+├── README.md             
+├── data/
 │   └── 02_sp500_esg_risk_ratings.csv
-├── sql
+├── sql/
 │   ├── 03_data_inspection.sql
 │   ├── 04_data_cleaning.sql
 │   └── 05_analysis_queries.sql
-└── visualizations
+└── visualizations/
 │   ├── 06_executive_dashboard.png
 │   ├── 07_sector_deep_dive.png
 │   └── 08_risk_analysis.png
