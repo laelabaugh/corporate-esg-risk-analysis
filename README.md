@@ -27,9 +27,11 @@ This project analyzes ESG Risk Ratings for 162 S&P 500 companies across 11 secto
 **Provider:** Sustainalytics ESG Risk Ratings
 
 The SQL queries used to inspect, clean, and analyze data for this project can be found through the following links: 
-[Inspecting Queries](03_data_inspection.sql),
-[Cleaning Queries](04_data_cleaning.sql),
-[Analysis Queries](05_analysis_queries.sql)
+[Inspecting Queries](/sql/03_data_inspection.sql),
+[Cleaning Queries](/sql/04_data_cleaning.sql),
+[Analysis Queries](/sql/05_analysis_queries.sql)
+
+The visualizations depicting the 
 
 ---
 
@@ -93,8 +95,6 @@ Across 162 S&P 500 companies, ESG risk varies widely by sector, with Energy lead
 
 The majority of companies (51.2%) fall within the "Medium" risk category; only 11.1% fall under "High" or "Severe". Environmental factors result in the widest gap between sectors. Energy's environmental score (15.46) runs about 12 times higher than Communication Services (1.28).
 
-Below is a summary dashboard of key ESG performance indicators:
-
 ### Key Performance Indicators
 
 | Metric | Value | More info |
@@ -105,6 +105,10 @@ Below is a summary dashboard of key ESG performance indicators:
 | Lowest Sector Risk | Real Estate (12.58) | 43% below market |
 | High/Severe Risk Companies | 18 (11.1%) | Needs attention |
 | ESG Leaders (low risk) | 61 (37.7%) | Strong performers |
+
+Below is a summary dashboard of key ESG performance indicators:
+
+![Executive Dashboard](/visualizations/06_executive_dashboard.png)
 
 ---
 
@@ -146,6 +150,8 @@ The Energy sector has strong ESG risk, with an average score 57% above the marke
 
 **Key Insight:** While Energy struggles with environmental metrics, Healthcare faces its greatest challenge in social risk at 12.73 average. Drug prcing, clinical trial ethics, and healthcare access issues likely play a role. Financial Services and Communication Services show high governance risk, which probably reflects examination of executive pay, board diversity, and data privacy practices.
 
+![Sector Deep Dive](/visualizations/07_sector_deep_dive.png)
+
 ---
 
 ### 3. Environmental Risk Analysis: Leaders vs. Laggards
@@ -171,6 +177,8 @@ Environmental factors show the widest spread across sectors, making them the pri
 | Materials | 11.12 | 45.3% |
 
 **Key Insight:** Environmental risk accounts for almost half of total ESG risk in Energy and Materials sectors, compared to less than 10% in Financial Services and Communication Services. This gap creates both the risk of new environmental regulation for laggards and investment opportunity for companies showing environmental leadership within high-risk sectors.
+
+![Sector Heatmap](/visualizations/09_sector_heatmap.png)
 
 ---
 
@@ -247,6 +255,8 @@ Analysis of ESG risk by employee count shows no clear relationship between compa
 | Small (<10K) | 47 | 21.72 | 2.06 |
 
 **Key Insight:** Smaller companies actually show marginally lower average ESG risk scores (21.72) than large enterprises (22.88), though they experience slightly higher controversy scores. This suggests ESG performance is driven more by industry exposure, business model, and management commitment than organizational scale.
+
+![Risk Analysis](/visualizations/08_risk_analysis.png)
 
 ---
 
