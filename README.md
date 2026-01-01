@@ -308,7 +308,7 @@ The analysis was conducted using SQLite with the following query categories:
 ### Repository Structure
 
 ```
-├── 01_README.md                 # This file
+├── README.md                 # This file
 ├── data
 │   └── 02_sp500_esg_risk_ratings.csv
 ├── sql
