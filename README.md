@@ -31,8 +31,6 @@ The SQL queries used to inspect, clean, and analyze data for this project can be
 [Cleaning Queries](/sql/04_data_cleaning.sql),
 [Analysis Queries](/sql/05_analysis_queries.sql)
 
-The visualizations depicting the 
-
 ---
 
 ## Data Structure Overview
