@@ -2,7 +2,7 @@
 
 ## Project Background and Overview
 
-Environmental, Social, and Governance (ESG) investing has become a key framework for evaluating corporate sustainability and ethical impact. ESG criteria help investors to screen companies based on their environmental practices, social responsibility, and corporate governance standards.
+Environmental, Social and Governance investing has become a key framework for evaluating corporate sustainability and ethical impact. ESG criteria help investors to screen companies based on their environmental practices, social responsibility, and corporate governance standards.
 
 This project analyzes ESG Risk Ratings for 162 S&P 500 companies across 11 sectors. The data comes from Sustainalytics, an ESG research and ratings provider. The dataset captures ESG risk assessments measuring a company's unmanaged ESG risk exposure at one single point in time.
 
