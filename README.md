@@ -11,7 +11,7 @@ This project analyzes ESG Risk Ratings for 162 S&P 500 companies across 11 secto
 ### Key business questions addressed:
 
 - **Sector Risk:** Which sectors have the highest ESG risk, and what causes that risk?
-- **Environmental Performance Ranking:** Which sectors and companies are the best and worst-performing environmentally?
+- **Environmental Leadership Ranking:** Which sectors and companies are the best and worst-performing environmentally?
 - **Controversy Assessment:** How do negative controversy incidents relate to overall ESG risk?
 - **Risk Distribution:** What percentage of S&P 500 companies fall into each risk category?
 - **Anomalies:** Are there companies with high number of controversy incidents but misleadingly low ESG risk scores?
