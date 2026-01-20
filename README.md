@@ -2,19 +2,19 @@
 
 ## Project Background and Overview
 
-Environmental, Social and Governance investing has become a key framework for evaluating corporate sustainability and ethical impact. ESG criteria help investors to screen companies based on their environmental practices, social responsibility, and corporate governance standards.
+Environmental, Social and Governance investing has become an essential framework for assessing sustainability and ethical impact in the corporate world. ESG criteria help investors to evaluate companies based on their social responsibility and corporate governance standards.
 
-This project analyzes ESG Risk Ratings for 162 S&P 500 companies across 11 sectors. The data comes from Sustainalytics, an ESG research and ratings provider. The dataset captures ESG risk assessments measuring a company's unmanaged ESG risk exposure at one single point in time.
+This project analyzes ESG Risk Ratings for 162 S&P 500 companies across 11 sectors. The data comes from Sustainalytics, an ESG research and ratings provider. The dataset captures ESG risk assessments measuring a company's ESG risk exposure at one single point in time.
 
 *This project was conducted in October 2025 and later uploaded to GitHub in December 2025.*
 
 ### Key business questions addressed:
 
-- **Sector Risk Analysis:** Which sectors have the highest ESG risk, and what causes that risk?
-- **Environmental Leadership:** Which sectors and companies are the best and worst-performing environmentally?
+- **Sector Risk:** Which sectors have the highest ESG risk, and what causes that risk?
+- **Environmental Performance Ranking:** Which sectors and companies are the best and worst-performing environmentally?
 - **Controversy Assessment:** How do negative controversy incidents relate to overall ESG risk?
 - **Risk Distribution:** What percentage of S&P 500 companies fall into each risk category?
-- **Anomaly Detection:** Are there companies with high number of controversy incidents but misleadingly low ESG risk scores?
+- **Anomalies:** Are there companies with high number of controversy incidents but misleadingly low ESG risk scores?
 
 ### Dataset Information
 
@@ -31,7 +31,7 @@ The SQL queries used to inspect, clean, and analyze data for this project can be
 
 ## Data Structure Overview
 
-The dataset contains 162 companies with 11 attributes covering ESG risk metrics, controversy assessments, and company characteristics.
+The dataset contains 162 companies with 11 attributes covering ESG risk metrics, controversy assessments, company characteristics.
 
 ### Entity Relationship Diagram
 
@@ -85,7 +85,7 @@ The dataset contains 162 companies with 11 attributes covering ESG risk metrics,
 
 ### Overview of Findings
 
-Across 162 S&P 500 companies, ESG risk varies widely by sector, with Energy leading as the highest-risk sector at an average total ESG risk score of 34.62 (57% above the market average of 22.09). Real Estate, on the other hand, demonstrates strong sustainability performance with an average score of just 12.58, approximately 43% below the average.
+Across 162 S&P 500 companies, ESG risk varies widely by sector, with Energy leading as the highest-risk sector at an average total ESG risk score of 34.62 (57% above the market average of 22.09). On the other hand, Real Estate demonstrates strong sustainability performance with an average score of just 12.58, approximately 43% below the average.
 
 The majority of companies (51.2%) fall within the "Medium" risk category; only 11.1% fall under "High" or "Severe". Environmental factors result in the widest gap between sectors. Energy's environmental score (15.46) runs about 12 times higher than Communication Services (1.28).
 
@@ -152,12 +152,12 @@ The Energy sector has strong ESG risk, with an average score 57% above the marke
 
 Environmental factors show the widest spread across sectors, making them the primary differentiator in ESG performance. This can be segmented into three tiers:
 
-**Environmental Leaders** (Avg. Environmental Risk < 3.0):
+**Environmental Leaders** (Average Environmental Risk < 3.0):
 - Communication Services: 1.28
 - Technology: 1.96  
 - Financial Services: 2.21
 
-**Environmental Laggards** (Avg. Environmental Risk > 10.0):
+**Environmental Laggards** (Average Environmental Risk > 10.0):
 - Utilities: 10.86
 - Materials: 11.12
 - Energy: 15.46
@@ -197,7 +197,7 @@ When you filter down from sectors to industries, it reveals that Renewable Energ
 
 ### 5. Controversy Assessment: Hidden Risks
 
-Analysis found 25 companies with high controversy scores ( greater than or equal to 3) but below-average ESG risk scores These may represent situations of possible hidden risk where headline incidents are not fully reflected in risk ratings.
+Analysis found 25 companies with high controversy scores (greater than or equal to 3) but below-average ESG risk scores. These may represent situations of possible hidden risk where headline incidents are not fully reflected in risk ratings.
 
 **Notable Risk Anomalies:**
 
@@ -218,7 +218,7 @@ Analysis found 25 companies with high controversy scores ( greater than or equal
 
 ### 6. ESG Leaders: Top Performing Companies
 
-The top ESG performers are concentrated in Real Estate and Technology, reflecting lower environmental footprints and established governance frameworks.
+The top ESG performers are concentrated in Real Estate and Technology, reflecting lower environmental footprints and possibly established and effective governance frameworks.
 
 | Company | Sector | ESG Risk Score | Risk Category |
 |---------|--------|----------------|---------------|
@@ -233,7 +233,7 @@ The top ESG performers are concentrated in Real Estate and Technology, reflectin
 | Equity Residential | Real Estate | 12.0 | Low |
 | Sysco Corp. | Consumer Staples | 12.4 | Low |
 
-**Key Insight:** Real Estate dominates ESG leadership positions, with 7 of the top 10 performers. This sector's inherent characteristics (long-lived assets, tenant relationships, and regulatory compliance requirements) might naturally align with ESG best practices.
+**Key Insight:** Real Estate dominates ESG leadership positions, with 7 of the top 10 performers. This sector's inherent characteristics (long-lived assets, tenant relationships, regulatory compliance requirements) might naturally align with ESG best practices.
 
 ---
 
@@ -248,7 +248,7 @@ Analysis of ESG risk by employee count shows no clear relationship between compa
 | Medium (10K-50K) | 71 | 21.91 | 1.77 |
 | Small (<10K) | 47 | 21.72 | 2.06 |
 
-**Key Insight:** Smaller companies actually show marginally lower average ESG risk scores (21.72) than large enterprises (22.88), though they experience slightly higher controversy scores. This suggests ESG performance is driven more by industry exposure, business model, and management commitment than organizational scale.
+**Key Insight:** Smaller companies actually show marginally lower average ESG risk scores (21.72) than large enterprises (22.88), though they experience slightly higher controversy scores. This suggests ESG performance is driven more by factors like industry, business model, commitment of management than organizational scale.
 
 ![Risk Analysis](/visualizations/08_risk_analysis.png)
 
@@ -268,15 +268,15 @@ Based on the analysis, the following are a few recommendations for key stakehold
 
 ### For Corporate Sustainability Teams:
 
-4. **Energy and Materials companies should prioritize environmental risk reduction.** It drives nearly half their total ESG risk score. Targeted initiatives in emissions reduction, waste management, and resource efficiency will likely result in the greatest score improvement.
+4. **Energy and Materials companies should prioritize environmental risk reduction.** It drives nearly half their total ESG risk score. Targeted initiatives in emissions reduction and resource efficiency will likely result in a great score improvement.
 
-5. **Healthcare companies should address social risk factors.** Drug pricing transparency, clinical trial ethics, and healthcare access contribute disproportionately to the sector's ESG profile.
+5. **Healthcare companies should address social risk factors.** Drug pricing transparency, clinical trial ethics and healthcare access contribute disproportionately to the sector's ESG profile.
 
-6. **Financial Services and Communication Services should focus on governance improvements.** This includes board diversity, executive compensation alignment with ESG goals, and data privacy practices.
+6. **Financial Services and Communication Services should focus on governance improvements.** This includes executive compensation alignment with ESG goals and data privacy practices.
 
 ### For Risk Management:
 
-7. **Monitor controversies alongside ESG scores.** Fixed risk ratings can miss real-time reputation issues. When a company's controversy level doesn't match its risk score, it can be an early warning sign.
+7. **Monitor controversies alongside ESG scores.** Fixed risk ratings can disregard real-time reputation issues. When a company's controversy level doesn't match its risk score, it can be an early warning sign.
 
 8. **Real Estate tends to be a safer ESG option.** Consistently low risk scores and minimal controversy make it worth considering this sector for ESG-focused portfolios that want more stability.
 
@@ -286,13 +286,13 @@ Based on the analysis, the following are a few recommendations for key stakehold
 
 **Current Limitations:**
 - This data represents a point-in-time snapshot, and trend analysis is not possible with single-period data.
-- Only 162 of 500 S&P 500 companies are represented, so there may be coverage gaps in some sectors.
+- Only 162 of 500 S&P 500 companies are represented, so there may be coverage gaps.
 - ESG scoring methodologies may vary across providers, so results may differ with other data sources.
 
 **Future Enhancements:**
-- Incorporate time-series data to analyze ESG score trends and momentum.
+- Incorporate time-series data to analyze ESG score trends over time.
 - Add financial performance metrics to correlate ESG scores with returns.
-- Expand to full S&P 500 coverage and international indices.
+- Expand to full S&P 500 coverage.
   
 ---
 
