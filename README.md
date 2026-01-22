@@ -59,7 +59,7 @@ The dataset contains 162 companies with 11 attributes covering ESG risk metrics,
 ├─────────────────────────────┤    ├─────────────────────────────┤
 │  sector_id    INTEGER (PK)  │    │  industry_id  INTEGER (PK)  │
 │  sector       VARCHAR       │    │  industry     VARCHAR       │
-│                             │    │  sector       VARCHAR (FK)  │
+│                             │    │  sector       VARCHAR       │
 └─────────────────────────────┘    └─────────────────────────────┘
 ```
 
@@ -128,7 +128,7 @@ The analysis reveals that over half of S&P 500 companies have Medium ESG risk, w
 
 The Energy sector has strong ESG risk, with an average score 57% above the market average. This is primarily driven by environmental factors, which contribute 44.7% of the sector's total risk, the highest environmental contribution of any sector.
 
-| Sector | Avg. Total Risk | Avg. Env Risk | Avg. Social Risk | Avg. Gov Risk |
+| Sector | Avg. Total Risk | Avg. Env. Risk | Avg. Soc. Risk | Avg. Gov. Risk |
 |--------|----------------|--------------|-----------------|--------------|
 | Energy | 34.62 | 15.46 | 10.73 | 8.43 |
 | Materials | 24.55 | 11.12 | 8.16 | 5.28 |
