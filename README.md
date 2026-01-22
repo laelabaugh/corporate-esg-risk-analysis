@@ -69,11 +69,11 @@ The dataset contains 162 companies with 11 attributes covering ESG risk metrics,
 |--------|-------------|-----------|--------------|
 | `company_name` | Legal company name | VARCHAR | Unique identifier |
 | `sector` | GICS sector classification | VARCHAR | 11 sectors |
-| `industry` | Sub-industry classification | VARCHAR | 25+ industries |
+| `industry` | Industry classification | VARCHAR | 25+ industries |
 | `environmental_risk_score` | Unmanaged environmental risk | FLOAT | 0.0 - 25.0 |
 | `social_risk_score` | Unmanaged social risk | FLOAT | 1.0 - 21.0 |
 | `governance_risk_score` | Unmanaged governance risk | FLOAT | 3.0 - 15.5 |
-| `total_esg_risk_score` | Sum of E + S + G scores | FLOAT | 8.7 - 40.4 |
+| `total_esg_risk_score` | Sum of Env. + Soc. + Gov. scores | FLOAT | 8.7 - 40.4 |
 | `esg_risk_category` | Risk classification tier | VARCHAR | Negligible, Low, Medium, High, Severe |
 | `controversy_score` | Controversy incident rating | INTEGER | 0 - 5 |
 | `controversy_level` | Controversy severity | VARCHAR | None, Low, Moderate, Significant, High, Severe |
